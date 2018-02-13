@@ -1,0 +1,43 @@
+# temp
+ess-config-solrcloud
+ess-config.zip
+
+
+# Emacs editor
+*.*~
+\#*.*#
+\.#*
+\#*#
+
+# Mac Finder
+.DS_Store
+.Thumbs_DB
+
+# Java build
+target
+/test-output
+#random stuff
+hacks
+*staples*.*
+
+#serverlogs
+log
+
+# IntelliJ
+.idea
+ess-service.iml
+
+#UI
+/node_modules
+/.tmp
+/.sass-cache
+/bower_components
+/service/main/resources/root
+config.codekit
+
+# big data
+demoassets
+src/main/resources/root/admin/data
+/bin/
+ess-pk.yaml
+selfsigned.crt
