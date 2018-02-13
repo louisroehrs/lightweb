@@ -12,10 +12,16 @@ As far as devices that can run a browser with Web Bluetooth, I know the MacBook 
 
 ## Usage
 
-Clone this tiny repo.
-cd lightweb
-node lightweb.js
+- Clone this tiny repo
+- cd lightweb
+- node lightweb.js
+- Browse to localhost:14000
 
-Browse to localhost:14000
+- Click the Get Stuff button to find the bluetooth controller for your LEDs. 
+- Click the color wheel to set the whole strip to the clicked color.
+- Click Shoot for a shooting effect
+- Click Set Pixel for a twinkling effect.
+- Click Disconnect to tell the bluetooth led controller to disconnect from your browser.  Remember to disconnect before leaving the web page so connection later can happen.  If you forget, just wait 10 minutes for the led controller to reset.
+
 
 
